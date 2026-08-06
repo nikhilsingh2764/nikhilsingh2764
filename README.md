@@ -1,185 +1,73 @@
-```markdown
-<h1 align="center">Hi 👋, I'm Nikhil Singh</h1>
+# Hi, I'm Nikhil Singh 👋
 
-<h3 align="center">Backend Engineer | Node.js | Express.js | MongoDB | Redis</h3>
+### Backend Engineer | Node.js • Express.js • MongoDB • Redis
 
-<p align="center">
-Building scalable, secure, and production-ready backend applications with a focus on REST APIs, authentication, caching, and clean architecture.
-</p>
+Building production-ready backend systems focused on secure REST APIs, authentication, caching, rate limiting, file management, and scalable backend architecture.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/nikhil-singh-802594231/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:nikhilsingh2764@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+<p>
+<a href="https://www.linkedin.com/in/nikhil-singh-802594231/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:nikhilsingh2764@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/>
+</a>
 </p>
 
 ---
 
-## 🚀 About Me
+## 👨‍💻 About Me
 
-- 💻 Backend Engineer specializing in **Node.js** and **Express.js**
-- ⚡ Build scalable, secure, and production-ready REST APIs
-- 🔐 Experienced in authentication, authorization, and API security
-- 🚀 Optimize applications using Redis caching and efficient database queries
-- 🏗️ Follow clean architecture and service-based backend design
-- 📚 Currently learning System Design and advanced backend engineering
-- 💼 Open to Backend Developer opportunities
+* Backend Engineer specializing in **Node.js** and **Express.js**
+* Build secure, scalable, and production-ready REST APIs
+* Strong focus on authentication, authorization, API security, and backend architecture
+* Experienced with MongoDB, Redis, JWT, queues, file storage, and email services
+* Currently building backend projects and improving system design skills
+* Open to Backend Developer opportunities
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=javascript,nodejs,express,mongodb,redis,docker,git,github,postman" />
+<p>
+<img src="https://skillicons.dev/icons?i=javascript,nodejs,express,mongodb,redis,git,github,postman,docker"/>
 </p>
 
-### Backend
+---
 
-- Node.js
-- Express.js
-- REST APIs
-- Middleware
-- MVC Architecture
-- Controller-Service Architecture
+## 🚀 Featured Projects
 
-### Database
+### 📄 Invoice Generator
 
-- MongoDB
-- Mongoose
-- Redis
+Enterprise invoice management backend featuring JWT authentication, Redis caching, PDF generation, email delivery, customer management, product management, search, filtering, and pagination.
 
-### Authentication & Security
+### 🔗 URL Shortener
 
-- JWT Authentication
-- Refresh Tokens
-- OAuth
-- Role-Based Access Control (RBAC)
-- Password Hashing
-- Cookie-Based Authentication
-- API Security
-- Rate Limiting
-- Helmet
-- CORS
+Production-ready URL shortening service with Redis caching, analytics, rate limiting, JWT authentication, custom aliases, and link expiration.
 
-### Backend Features
+### 🤖 AI Interview Platform
 
-- Redis Caching
-- File Upload & Management
-- Email Services
-- PDF Generation
-- Queue Processing (BullMQ)
-- API Validation (Zod)
-- Logging
-- Global Error Handling
-- Pagination
-- Search
-- Filtering
-- Sorting
-
-### Tools
-
-- Git
-- GitHub
-- Docker
-- Postman
-- Cloudinary
+AI-powered interview backend with authentication, AI integration, file uploads, session management, and email notifications.
 
 ---
 
-## 🚀 What I Build
+## 🎯 Backend Expertise
 
-- Production-Ready REST APIs
-- Authentication & Authorization Systems
-- URL Shortener Services
-- Invoice Management Systems
-- AI-Powered Backend Applications
-- File Upload & Storage Services
-- Email & Notification Services
-- Redis Caching
-- Rate Limiting
-- Secure Backend Architectures
-
----
-
-## 📌 Featured Projects
-
-### 🚀 Invoice Generator API
-
-Production-ready backend for managing invoices, customers, products, PDF generation, and email delivery.
-
-**Highlights**
-
-- JWT Authentication
-- Role-Based Authorization
-- Invoice PDF Generation
-- Email Invoice Delivery
-- Customer & Product Management
-- Search, Filtering & Pagination
-- Clean Architecture
-- RESTful APIs
+* REST API Development
+* Authentication & Authorization
+* API Security
+* Redis Caching
+* Rate Limiting
+* Queue Processing
+* File Upload & Management
+* Email Services
+* PDF Generation
+* Logging & Error Handling
+* Pagination, Search & Filtering
+* Clean Architecture
 
 ---
 
-### 🔗 URL Shortener API
+## 📫 Connect
 
-Scalable URL shortening service with authentication, analytics, and Redis caching.
-
-**Highlights**
-
-- JWT Authentication
-- Redis Caching
-- Rate Limiting
-- URL Analytics
-- Link Expiration
-- Custom Short URLs
-- REST API
-- Input Validation
-
----
-
-### 🤖 AI Interview Platform Backend
-
-Backend powering an AI-based interview platform.
-
-**Highlights**
-
-- Secure Authentication
-- AI Integration
-- File Upload Management
-- Session Management
-- Email Notifications
-- REST APIs
-- Clean Architecture
-
----
-
-## 🎯 Core Backend Skills
-
-- REST API Design
-- Authentication & Authorization
-- API Security
-- Database Design
-- Redis Caching
-- Rate Limiting
-- Queue Processing
-- Email Services
-- File Upload Management
-- PDF Generation
-- Logging
-- Error Handling
-- Pagination
-- Search
-- Filtering
-- Sorting
-- Deployment
-
----
-
-## 📫 Connect With Me
-
-- 💼 LinkedIn: https://www.linkedin.com/in/nikhil-singh-802594231/
-- 📧 Email: nikhilsingh2764@gmail.com
-```
+* LinkedIn: https://www.linkedin.com/in/nikhil-singh-802594231/
+* Email: [nikhilsingh2764@gmail.com](mailto:nikhilsingh2764@gmail.com)
