@@ -1,95 +1,106 @@
-# Hi, I'm Nikhil Singh 👋
+```markdown
+<h1 align="center">Hi 👋, I'm Nikhil Singh</h1>
 
-## Backend Engineer
+<h3 align="center">Backend Engineer | Node.js | Express.js | MongoDB | Redis</h3>
 
-I build scalable, secure, and production-ready backend applications using **Node.js**, **Express.js**, **MongoDB**, **PostgreSQL**, and **Redis**. My focus is on designing clean REST APIs, implementing secure authentication systems, optimizing backend performance, and developing maintainable server-side architectures.
+<p align="center">
+Building scalable, secure, and production-ready backend applications with a focus on REST APIs, authentication, caching, and clean architecture.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/nikhil-singh-802594231/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:nikhilsingh2764@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 ## 🚀 About Me
 
-* 💻 Backend Engineer specializing in Node.js and Express.js
-* ⚙️ Design and develop scalable REST APIs
-* 🔐 Build secure authentication and authorization systems
-* 🚀 Optimize applications using Redis caching and efficient database queries
-* 🗄️ Work with MongoDB, PostgreSQL, and MySQL
-* 📦 Build production-ready backend applications following clean architecture
-* 🎯 Open to Backend Developer opportunities
+- 💻 Backend Engineer specializing in **Node.js** and **Express.js**
+- ⚡ Build scalable, secure, and production-ready REST APIs
+- 🔐 Experienced in authentication, authorization, and API security
+- 🚀 Optimize applications using Redis caching and efficient database queries
+- 🏗️ Follow clean architecture and service-based backend design
+- 📚 Currently learning System Design and advanced backend engineering
+- 💼 Open to Backend Developer opportunities
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages
-
-* JavaScript (ES6+)
+<p align="left">
+<img src="https://skillicons.dev/icons?i=javascript,nodejs,express,mongodb,redis,docker,git,github,postman" />
+</p>
 
 ### Backend
 
-* Node.js
-* Express.js
-* REST APIs
-* Middleware
-* MVC Architecture
-* Controller-Service Architecture
+- Node.js
+- Express.js
+- REST APIs
+- Middleware
+- MVC Architecture
+- Controller-Service Architecture
 
-### Databases
+### Database
 
-* MongoDB
-* Mongoose
-* PostgreSQL
-* MySQL
-* Redis
+- MongoDB
+- Mongoose
+- Redis
 
 ### Authentication & Security
 
-* JWT Authentication
-* Refresh Tokens
-* OAuth
-* Role-Based Access Control (RBAC)
-* Password Hashing
-* Cookie-Based Authentication
-* API Security
-* Rate Limiting
-* Helmet
-* CORS
+- JWT Authentication
+- Refresh Tokens
+- OAuth
+- Role-Based Access Control (RBAC)
+- Password Hashing
+- Cookie-Based Authentication
+- API Security
+- Rate Limiting
+- Helmet
+- CORS
 
-### Backend Engineering
+### Backend Features
 
-* Redis Caching
-* Queue Processing
-* File Upload & Management
-* Email Services
-* PDF Generation
-* Input Validation
-* Logging
-* Global Error Handling
-* Pagination
-* Search
-* Filtering
-* Sorting
+- Redis Caching
+- File Upload & Management
+- Email Services
+- PDF Generation
+- Queue Processing (BullMQ)
+- API Validation (Zod)
+- Logging
+- Global Error Handling
+- Pagination
+- Search
+- Filtering
+- Sorting
 
 ### Tools
 
-* Git
-* GitHub
-* Docker
-* Postman
-* Cloudinary
+- Git
+- GitHub
+- Docker
+- Postman
+- Cloudinary
 
 ---
 
 ## 🚀 What I Build
 
-* Production-Ready REST APIs
-* Authentication & Authorization Systems
-* URL Shortener Services
-* Invoice Management Systems
-* AI-Powered Backend Applications
-* File Upload & Storage Services
-* Email & Notification Services
-* Redis Caching & Rate Limiting
-* Secure Backend Architectures
+- Production-Ready REST APIs
+- Authentication & Authorization Systems
+- URL Shortener Services
+- Invoice Management Systems
+- AI-Powered Backend Applications
+- File Upload & Storage Services
+- Email & Notification Services
+- Redis Caching
+- Rate Limiting
+- Secure Backend Architectures
 
 ---
 
@@ -97,82 +108,78 @@ I build scalable, secure, and production-ready backend applications using **Node
 
 ### 🚀 Invoice Generator API
 
-A production-ready backend for managing invoices, customers, products, PDF generation, and email delivery.
+Production-ready backend for managing invoices, customers, products, PDF generation, and email delivery.
 
-**Key Features**
+**Highlights**
 
-* JWT Authentication
-* Role-Based Authorization
-* Invoice PDF Generation
-* Email Invoice Delivery
-* Customer & Product Management
-* Search, Filtering & Pagination
-* Secure REST APIs
-* Clean Architecture
+- JWT Authentication
+- Role-Based Authorization
+- Invoice PDF Generation
+- Email Invoice Delivery
+- Customer & Product Management
+- Search, Filtering & Pagination
+- Clean Architecture
+- RESTful APIs
 
 ---
 
 ### 🔗 URL Shortener API
 
-A scalable URL shortening service built with security and performance in mind.
+Scalable URL shortening service with authentication, analytics, and Redis caching.
 
-**Key Features**
+**Highlights**
 
-* JWT Authentication
-* Redis Caching
-* Rate Limiting
-* URL Analytics
-* Link Expiration
-* Custom Short URLs
-* Input Validation
-* RESTful API Design
+- JWT Authentication
+- Redis Caching
+- Rate Limiting
+- URL Analytics
+- Link Expiration
+- Custom Short URLs
+- REST API
+- Input Validation
 
 ---
 
 ### 🤖 AI Interview Platform Backend
 
-Backend powering an AI-based interview application.
+Backend powering an AI-based interview platform.
 
-**Key Features**
+**Highlights**
 
-* Secure Authentication
-* AI Integration
-* File Upload Management
-* Session Management
-* Email Notifications
-* REST APIs
-* Clean Architecture
-
----
-
-## 🎯 Areas of Interest
-
-* Backend Engineering
-* REST API Development
-* Authentication & Security
-* Database Design
-* Redis Caching
-* Performance Optimization
-* System Design
-* Scalable Backend Architecture
+- Secure Authentication
+- AI Integration
+- File Upload Management
+- Session Management
+- Email Notifications
+- REST APIs
+- Clean Architecture
 
 ---
 
-## 📊 GitHub Stats
+## 🎯 Core Backend Skills
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nikhilsingh2764\&show_icons=true\&theme=github_dark)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nikhilsingh2764\&layout=compact\&theme=github_dark)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=nikhilsingh2764\&theme=github-dark)
+- REST API Design
+- Authentication & Authorization
+- API Security
+- Database Design
+- Redis Caching
+- Rate Limiting
+- Queue Processing
+- Email Services
+- File Upload Management
+- PDF Generation
+- Logging
+- Error Handling
+- Pagination
+- Search
+- Filtering
+- Sorting
+- Deployment
 
 ---
 
 ## 📫 Connect With Me
 
-* 💼 LinkedIn: https://www.linkedin.com/in/nikhil-singh-802594231/
-* 📧 Email: [nikhilsingh2764@gmail.com](mailto:nikhilsingh2764@gmail.com)
-
----
-
-⭐ Thanks for visiting my profile!
+- 💼 LinkedIn: https://www.linkedin.com/in/nikhil-singh-802594231/
+- 📧 Email: nikhilsingh2764@gmail.com
+```
