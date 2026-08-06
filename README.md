@@ -2,72 +2,169 @@
 
 ### Backend Engineer | Node.js • Express.js • MongoDB • Redis
 
-Building production-ready backend systems focused on secure REST APIs, authentication, caching, rate limiting, file management, and scalable backend architecture.
+Building secure, scalable, and production-ready backend systems with a strong focus on REST APIs, authentication, caching, rate limiting, and clean architecture.
 
-<p>
-<a href="https://www.linkedin.com/in/nikhil-singh-802594231/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:nikhilsingh2764@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/>
-</a>
+<p align="left">
+  <a href="https://www.linkedin.com/in/nikhil-singh-802594231/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:nikhilsingh2764@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+# 👨‍💻 About Me
 
-* Backend Engineer specializing in **Node.js** and **Express.js**
-* Build secure, scalable, and production-ready REST APIs
-* Strong focus on authentication, authorization, API security, and backend architecture
-* Experienced with MongoDB, Redis, JWT, queues, file storage, and email services
-* Currently building backend projects and improving system design skills
-* Open to Backend Developer opportunities
+Backend Engineer passionate about building scalable backend applications and solving real-world problems through reliable APIs and clean software architecture.
+
+* 🚀 Develop production-ready REST APIs using Node.js & Express.js
+* 🔐 Build secure authentication and authorization systems
+* ⚡ Optimize backend performance with Redis caching
+* 📂 Develop file management, PDF generation, and email services
+* 🏗️ Follow clean, modular Controller–Service architecture
+* 💼 Open to Backend Developer opportunities
 
 ---
 
-## ⚙️ Tech Stack
+# ⚙️ Tech Stack
 
 <p>
 <img src="https://skillicons.dev/icons?i=javascript,nodejs,express,mongodb,redis,git,github,postman,docker"/>
 </p>
 
----
-
-## 🚀 Featured Projects
-
-### 📄 Invoice Generator
-
-Enterprise invoice management backend featuring JWT authentication, Redis caching, PDF generation, email delivery, customer management, product management, search, filtering, and pagination.
-
-### 🔗 URL Shortener
-
-Production-ready URL shortening service with Redis caching, analytics, rate limiting, JWT authentication, custom aliases, and link expiration.
-
-### 🤖 AI Interview Platform
-
-AI-powered interview backend with authentication, AI integration, file uploads, session management, and email notifications.
+| Category            | Technologies                                  |
+| ------------------- | --------------------------------------------- |
+| **Backend**         | Node.js, Express.js, REST APIs                |
+| **Database**        | MongoDB, Mongoose, Redis                      |
+| **Authentication**  | JWT, Refresh Tokens, RBAC, Cookies            |
+| **Security**        | Helmet, CORS, Rate Limiting, Password Hashing |
+| **Validation**      | Zod                                           |
+| **Cloud & Storage** | Cloudinary                                    |
+| **Background Jobs** | BullMQ                                        |
+| **Tools**           | Git, GitHub, Docker, Postman                  |
 
 ---
 
-## 🎯 Backend Expertise
+# 🎯 Backend Expertise
 
-* REST API Development
-* Authentication & Authorization
+### API Development
+
+* REST API Design
+* Express Middleware
+* Controller-Service Architecture
+* Modular Project Structure
+* API Documentation
+
+### Authentication & Security
+
+* JWT Authentication
+* Refresh Token Flow
+* Cookie-Based Authentication
+* Role-Based Authorization
+* Password Hashing
 * API Security
+* Rate Limiting
+
+### Database
+
+* MongoDB
+* Mongoose
+* Schema Design
+* Aggregation Pipeline
+* Indexing
+* Pagination
+* Search
+* Filtering
+* Sorting
+
+### Performance
+
+* Redis Caching
+* Query Optimization
+* Efficient API Responses
+
+### Backend Services
+
+* File Upload & Management
+* PDF Generation
+* Email Services
+* Background Jobs
+* Logging
+* Centralized Error Handling
+
+---
+
+# 🚀 Featured Projects
+
+## 📄 Invoice Generator API
+
+Enterprise-grade backend for invoice management with secure authentication, customer & product management, dynamic PDF generation, and email delivery.
+
+### Highlights
+
+* JWT Authentication
+* Refresh Token Authentication
+* Customer & Product Management
+* Invoice CRUD
+* PDF Generation
+* Email Invoice Delivery
+* Redis Caching
+* Search, Filtering & Pagination
+* Global Error Handling
+* Production Deployment
+
+---
+
+## 🔗 URL Shortener API
+
+Scalable URL shortening backend with authentication, Redis caching, analytics, and rate limiting.
+
+### Highlights
+
+* JWT Authentication
+* URL Analytics
 * Redis Caching
 * Rate Limiting
-* Queue Processing
-* File Upload & Management
-* Email Services
-* PDF Generation
-* Logging & Error Handling
-* Pagination, Search & Filtering
+* Custom Short URLs
+* Link Expiration
+* Validation
+* Clean Architecture
+* Production Deployment
+
+---
+
+## 🤖 AI Interview Platform
+
+Backend powering an AI interview preparation platform.
+
+### Highlights
+
+* Secure Authentication
+* AI Integration
+* File Upload Management
+* Session Management
+* Email Notifications
+* Protected APIs
 * Clean Architecture
 
 ---
 
-## 📫 Connect
+# 🌱 Currently Learning
 
-* LinkedIn: https://www.linkedin.com/in/nikhil-singh-802594231/
-* Email: [nikhilsingh2764@gmail.com](mailto:nikhilsingh2764@gmail.com)
+* Backend System Design
+* Docker & Containerization
+* Scalable API Design
+* Performance Optimization
+
+---
+
+# 📫 Connect With Me
+
+* 💼 **LinkedIn:** https://www.linkedin.com/in/nikhil-singh-802594231/
+* 📧 **Email:** [nikhilsingh2764@gmail.com](mailto:nikhilsingh2764@gmail.com)
+
+---
+
+> *Building backend systems that are secure, scalable, and production-ready.*
