@@ -191,20 +191,6 @@ Local development is done in Docker, and every endpoint is tested and documented
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/nikhilsingh2764/nikhilsingh2764/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" />
-
-<img height="180" src="https://raw.githubusercontent.com/nikhilsingh2764/nikhilsingh2764/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" />
-<img height="180" src="https://raw.githubusercontent.com/nikhilsingh2764/nikhilsingh2764/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top languages by repo" />
-<img height="180" src="https://raw.githubusercontent.com/nikhilsingh2764/nikhilsingh2764/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages by commit" />
-
-</div>
-
----
-
 ## 📫 Connect With Me
 
 | | |
