@@ -195,10 +195,11 @@ Local development is done in Docker, and every endpoint is tested and documented
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=nikhilsingh2764&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikhilsingh2764&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/nikhilsingh2764/nikhilsingh2764/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=nikhilsingh2764&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+<img height="180" src="https://raw.githubusercontent.com/nikhilsingh2764/nikhilsingh2764/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" />
+<img height="180" src="https://raw.githubusercontent.com/nikhilsingh2764/nikhilsingh2764/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top languages by repo" />
+<img height="180" src="https://raw.githubusercontent.com/nikhilsingh2764/nikhilsingh2764/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages by commit" />
 
 </div>
 
