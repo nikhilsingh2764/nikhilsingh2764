@@ -23,16 +23,22 @@ with a strong focus on REST APIs, authentication, caching, rate limiting, CI/CD,
 
 ## 👨‍💻 About Me
 
-Backend Engineer passionate about building scalable applications and solving real-world problems through reliable APIs and clean software architecture.
+I'm a **Backend Engineer** who builds APIs the way real services run in production: secure by default, fast under load, and easy to monitor and deploy. I like the parts of a system users never see, such as queues, caching, authentication, and CI/CD.
 
-- 🚀 Build production-ready REST APIs with **Node.js** and **Express.js**
-- 🔐 Design secure authentication and authorization systems (JWT, refresh tokens, RBAC)
-- ⚡ Optimize backend performance with **Redis** caching
-- 📂 Develop file management, PDF generation, and email services
-- 🐳 Containerize applications with **Docker**
-- 🔄 Automate testing and deployment with **CI/CD pipelines** (GitHub Actions)
-- 🏗️ Follow clean, modular **Controller–Service** architecture
-- 💼 **Open to Backend Developer opportunities**
+**What I've built**
+- 🧾 An **invoicing API** with background PDF generation and email delivery through **BullMQ** workers, with automatic retries and exponential backoff, so slow work never blocks a request
+- 🔐 **Layered authentication**: OTP email verification, bcrypt, short-lived JWT access tokens with rotating refresh tokens in HTTP-only cookies, and Google sign-in
+- ⚡ **Redis** for caching, rate limiting across multiple instances, OTP storage, and job queues
+- 📊 **Observability**: health and readiness probes, Prometheus metrics with Grafana, Sentry error tracking, and structured logging with Winston
+- 🐳 **Docker** and **GitHub Actions** pipelines that build the image, deploy to Render, and verify the live health check
+- 📚 **OpenAPI/Swagger** documentation and a shared **Postman** collection for API testing
+
+**How I work**
+- Clean **routes → controllers → services → repositories** layering
+- Every query scoped to the authenticated user
+- MongoDB transactions where data consistency matters (for example, invoice numbering)
+
+💼 **Open to Backend Developer opportunities** (Node.js · Express · MongoDB · Redis)
 
 ---
 
@@ -44,10 +50,12 @@ Backend Engineer passionate about building scalable applications and solving rea
 | **Database** | MongoDB, Mongoose, Redis |
 | **Authentication** | JWT, Refresh Tokens, RBAC, Cookies |
 | **Security** | Helmet, CORS, Rate Limiting, Password Hashing |
-| **Validation** | Zod |
+| **Validation** | express-validator |
 | **Cloud & Storage** | Cloudinary |
-| **Background Jobs** | BullMQ |
-| **DevOps & CI/CD** | Docker, GitHub Actions, Render, Vercel |
+| **Background Jobs** | BullMQ (Redis-backed queues, retries, workers) |
+| **Observability** | Prometheus, Grafana, Sentry, Winston |
+| **API Docs** | Swagger / OpenAPI, Postman |
+| **DevOps & CI/CD** | Docker, Docker Compose, GitHub Actions, Render, Vercel |
 | **Version Control** | Git, GitHub (branching, pull requests, code review) |
 | **API Testing** | Postman |
 
@@ -64,7 +72,10 @@ Backend Engineer passionate about building scalable applications and solving rea
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
 </div>
@@ -131,19 +142,19 @@ Backend Engineer passionate about building scalable applications and solving rea
 
 ## 🚀 Featured Projects
 
-### 📄 [Invoice Generator API (InvoicePilot)](https://github.com/nikhilsingh2764/invoice-Genrator)
-Enterprise-grade backend for invoice management with secure authentication, customer and product management, dynamic PDF generation, and email delivery.
+### 📄 [Invoice Processing & Async Email Automation API](https://github.com/nikhilsingh2764/invoice-processing-and-async-email-automation-api)
+Production-style invoicing backend where slow work (PDF rendering and email delivery) runs in background workers, so the API stays fast. Live on Render with a CI/CD pipeline. ([Live API](https://invoice-backend-drqr.onrender.com/api-docs))
 
 **Highlights**
-- JWT and refresh token authentication
-- Customer and product management, Invoice CRUD
-- Dynamic PDF generation and email invoice delivery
-- Redis caching, plus search, filtering, and pagination
-- Global error handling
-- **CI/CD** with GitHub Actions and automated deployment health checks
-- Production deployment on Render and Vercel
+- **BullMQ + Redis** queues for PDFs, invoice emails and OTP emails, with 3 retries and exponential backoff
+- OTP email verification, Google sign-in, JWT with **rotating refresh tokens**, and Redis-backed **rate limiting**
+- Multi-item invoices with automatic tax and discount calculation, and invoice numbering done inside a **MongoDB transaction**
+- Redis caching for invoices, PDFs, business profiles and the dashboard
+- Analytics dashboard built with MongoDB **aggregation pipelines** (search, filters, pagination)
+- **Prometheus + Grafana** metrics, Sentry, health/readiness probes, Winston logging, Swagger docs
+- Dockerized, with **GitHub Actions** deploying to Render and running a post-deploy health check
 
-`Node.js` `Express` `MongoDB` `Redis` `JWT` `PDFKit` `GitHub Actions`
+`Node.js` `Express 5` `MongoDB` `Redis` `BullMQ` `Docker` `GitHub Actions` `Prometheus` `Grafana`
 
 ### 🔗 URL Shortener API
 Scalable URL shortening backend with authentication, Redis caching, analytics, and rate limiting.
@@ -155,7 +166,7 @@ Scalable URL shortening backend with authentication, Redis caching, analytics, a
 - Request validation and clean architecture
 - Production deployment
 
-`Node.js` `Express` `MongoDB` `Redis` `Zod`
+`Node.js` `Express` `MongoDB` `Redis`
 
 ### 🤖 AI Interview Platform
 Backend powering an AI interview preparation platform.
@@ -188,6 +199,26 @@ Local development is done in Docker, and every endpoint is tested and documented
 - Docker Compose and production container workflows
 - Scalable API Design
 - Performance Optimization
+
+---
+
+## 📊 Profile Highlights
+
+<div align="center">
+
+![Role](https://img.shields.io/badge/Role-Backend%20Engineer-2f81f7?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Projects](https://img.shields.io/badge/Projects-3%2B-success?style=for-the-badge&logo=github&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=for-the-badge)
+
+![Focus](https://img.shields.io/badge/Focus-REST%20APIs-blue?style=for-the-badge&logo=postman&logoColor=white)
+![Caching](https://img.shields.io/badge/Caching-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Auth](https://img.shields.io/badge/Auth-JWT%20%2B%20RBAC-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Deployed](https://img.shields.io/badge/Deployed-Render%20%7C%20Vercel-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+
+</div>
 
 ---
 
